@@ -21,6 +21,6 @@ const {email, domicilio} = persona;
 console.log(email);
 console.log(domicilio);
 
-//* Si no se nombra la variable con el nombre de un atributo no produce un error, per el resultado 
+//* Si no se nombra la variable con el nombre de un atributo no produce un error, pero el resultado 
 //* es 'undifined'
 const {nombre_persona} = persona;
