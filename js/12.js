@@ -9,7 +9,7 @@ const persona = {
 //* Anteriormente se observo que es muy facil modificar los objetos, añadiendo nuevos atributos
 persona.pais = 'Mexico'; 
 console.log(persona);
-//* En ocasones, esto puede ser contraproducente. Para evitar que el objeto se modifique, se utiliza
+//* En ocasiones, esto puede ser contraproducente. Para evitar que el objeto se modifique, se utiliza
 //* el siguente metodo:
 Object.freeze(persona);
 //* De esta forma, sera mposible modificar el objeto

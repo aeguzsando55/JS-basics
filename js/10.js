@@ -23,15 +23,14 @@ console.log(persona["nombre"]);
 console.log(persona["email"]);
 console.log(persona["telefono"]);
 
-//* Modificaciones a Objetos 
-
-//* Modificar atrbutos del objeto
+//* Reasignar valores de una propiedad del objeto
 persona.nombre = "Eric Guzman";
 console.log(persona);
-//* Agregar nuevos atributos al objeto:
+
+//* Agregar nuevas propiedades al objeto:
 persona.domicilo = "Chacuaco, no 22, Leon, Mex.";
 console.log(persona);
 
-//* Eliminar atributos del objeto
+//* Eliminar propiedades del objeto
 delete persona.email;
 console.log(persona);

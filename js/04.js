@@ -15,7 +15,7 @@ console.log(producto.length); // retorna el numero de elementos del string
 console.log(mensaje);
 console.log(mensaje.length);
 console.log(mensaje.indexOf('javascript')) // retorna el indice donde inicia una concordancia en el string
-console.log(mensaje.indexOf('pyhthon')) // Si no existe retorna un numero negativo
+console.log(mensaje.indexOf('python')) // Si no existe retorna un numero negativo
 // Includes (retorna true o false)
 console.log(mensaje.includes('javascript'))
 console.log(mensaje.includes('python'))
