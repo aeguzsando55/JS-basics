@@ -16,7 +16,7 @@ reservación.informacion();
 //* resultando en que se imprima undefined. Por ello se debe declarar el objeto window.propiedad antes de 
 //* declarar nuestro objeto:
 
-window.nombre = 'Un nombre';
+window.nombre = 'Un nombre'; // Global DOM
 
 const reservación2 = {
     nombre: 'Chayo',
