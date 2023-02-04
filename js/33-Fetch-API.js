@@ -29,9 +29,11 @@ obtenerEmpleados();
 //* Forma corta con async/await
 async function obtenerEmpleados2(){
     const archivo = 'empleados.json'
+    // Ya sabenis que la función fetch retorna un response y con este los datos del json
     const resultado = await fetch(archivo);
+    // Enseguida extraemos los datos 
     const datos = await resultado.json();
-    console.log(datos);
+    console.log(datos); // imprimimos 
 }
 
 obtenerEmpleados2();
